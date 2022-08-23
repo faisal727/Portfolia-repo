@@ -11,6 +11,7 @@ span{color:orange ;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .book{
     width: 50%;
@@ -32,6 +33,11 @@ section{
 .top-banner{
   background-image: url(top-banner.png);
   background-repeat: no-repeat;
+}
+.copy{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 
