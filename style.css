@@ -9,17 +9,20 @@ h1{
 span{color:orange ;
 
 }
-section{
+.star{
     display: flex;
     margin-bottom: 100px;
+    
 }
 .book{
     width: 50%;
   padding-left: 5px;
+  box-shadow: 0rem;
 }
 .book{
     width: 150%;
     padding: 5px;
+    
 }
 .Hire{
     text-decoration: none;
@@ -38,6 +41,36 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.heading{
+    color:orange;
+}
+.moon{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+.note{
+    box-shadow: black 10px 10px 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  border-left: 5px solid rgb(236, 70, 29);
+}
+.make{
+    border-left: 5px solid rgb(64, 28, 197);
+    box-shadow: black 10px 10px 20px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+}
+footer p{
+    text-align: center;
+    background: black;
+    color: white;
+    width: 700;
+    
+    
 }
 
 
